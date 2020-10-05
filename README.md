@@ -1,2 +1,2 @@
 # pil-4th
-Solutions to Exercises of Programming in Lua (Fourth Edition) Book
+Solutions to Exercises of Book Programming in Lua (Fourth Edition)
