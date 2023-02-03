@@ -44,11 +44,6 @@ function addqueen (a, n)
       printsolution (a)
    else   -- try to place n-th queen
       for c = 1, N do
-	 for i = 1, n - 1 do
-	    if a[i] == c then
-	       break
-	    end
-	 end
 	 a[n] = c    -- place n-th queen at column 'c'
 	 addqueen (a, n + 1)
       end
